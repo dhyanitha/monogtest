@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "2.0.0",
+  "description": "Nest TypeScript starter repository",
+  "license": "MIT",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "npm run serve:dev",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "mongodb": "^2.2.33",
+    "reflect-metadata": "^0.1.10",
+    "tslib": "^1.8.1",
+    "typeorm": "^0.1.7"
+  },
+  "devDependencies": {
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2"
+  }
+}
